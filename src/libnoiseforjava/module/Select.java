@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2003, 2004 Jason Bevins (original libnoise code)
- * Copyright © 2010 Thomas J. Hodge (java port of libnoise)
+ * Copyright ï¿½ 2010 Thomas J. Hodge (java port of libnoise)
  * 
  * This file is part of libnoiseforjava.
  * 
@@ -202,7 +202,7 @@ public class Select extends ModuleBase
    {
       // Make sure that the edge falloff curves do not overlap.
       double boundSize = upperBound - lowerBound;
-      edgeFalloff = (edgeFalloff > boundSize / 2)? boundSize / 2: edgeFalloff;
+      this.edgeFalloff = (edgeFalloff > boundSize / 2)? boundSize / 2: edgeFalloff;
    }
 
    /// Returns the control module.
